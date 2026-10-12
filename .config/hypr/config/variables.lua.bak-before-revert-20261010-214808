@@ -1,0 +1,22 @@
+-- Hyprland default apps
+
+TERMINAL     = "ghostty"
+FILE_MANAGER = "thunar"
+BROWSER      = "firefox"
+EDITOR       = "gnome-text-editor --new-window"
+CALCULATOR   = "gnome-calculator"
+
+-- Monitors
+MONITOR1 = "eDP-1"
+MONITOR2 = "HDMI-A-1"
+MONITOR3 = "eDP-1"
+hl.workspace_rule({ workspace = "4", monitor = MONITOR1, default = true, persistent = true })
+hl.workspace_rule({ workspace = "5", monitor = MONITOR1, default = true, persistent = true })
+hl.workspace_rule({ workspace = "6", monitor = MONITOR1, default = true, persistent = true })
+hl.workspace_rule({ workspace = "7", monitor = MONITOR1, default = true, persistent = true })
+hl.workspace_rule({ workspace = "8", monitor = MONITOR1, default = true, persistent = true })
+hl.workspace_rule({ workspace = "9", monitor = MONITOR1, default = true, persistent = true })
+PRIMARY_MONITOR = MONITOR1
+
+-- Workspaces
+NUM_WPM = 9 -- Number of workspaces per monitor (Max 10)

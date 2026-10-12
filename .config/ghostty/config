@@ -1,0 +1,15 @@
+
+font-family = JetBrains Mono
+font-size = 10
+cursor-color = 807FFF
+selection-background = 393768
+selection-foreground = E5E3FF
+background-blur = false
+      
+
+foreground = 807FFF
+palette = 5=#807FFF
+
+
+background = 0B1020
+background-opacity = 1.0
